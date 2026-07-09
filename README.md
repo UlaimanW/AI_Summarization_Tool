@@ -173,19 +173,6 @@ Defines the container setup:
 - Exposes port `8501`.
 - Runs the Streamlit app.
 
-## GitHub Notes
-
-Before pushing to GitHub, make sure these files are ignored:
-
-```gitignore
-.env
-__pycache__/
-*.pyc
-*.txt
-*.pdf
-```
-
-Do not commit API keys, generated summaries, cache folders, or unnecessary environment files.
 
 ## Project Status
 
